@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta
+      name="description"
+      content="Code Academy is the largest Computer Science programming college in the whole United States with world class faculty and modern facilites"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Code Academy | Learn Coding Together</title>
+
+    <link rel="icon" href="/images/favicon/desktop.png" />
+    <link rel="apple-touch-icon" href="/images/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/admission.css" />
+    <link rel="stylesheet" href="/css/queries.css" />
+
+    <script defer src="https://unpkg.com/phosphor-icons"></script>
+    <script defer src="/shared.js"></script>
+    <script defer src="/admission/admission.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="nav-wrapper">
+        <a class="website-logo" href="/index.html">Code Academy</a>
+        <nav class="main-nav">
+          <ul class="nav-list">
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#"
+                >Study in CA <i class="ph-caret-right"></i
+              ></a>
+
+              <div class="dropdown-menu grid grid--4-cols">
+                <div class="dropdown-menu-column">
+                  <h2>Admission</h2>
+                  <ul>
+                    <li>
+                      <a href="/admission/index.html">Admission Procedure</a>
+                    </li>
+                    <li>
+                      <a
+                        href="/admission/index.html#section-international-students"
+                        >International Students</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="/admission/index.html#section-handicapped-students"
+                        >Students with Special Needs
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="dropdown-menu-column">
+                  <h2>Finance & Aid</h2>
+                  <ul>
+                    <li><a href="#">Tuition Fees</a></li>
+                    <li><a href="#">Scholarships</a></li>
+                    <li><a href="#">Scholarship Eligibility</a></li>
+                    <li><a href="#">Student Loan</a></li>
+                    <li><a href="#">Loan Eligibility</a></li>
+                    <li>
+                      <a href="#">International Organization Scholarships</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="dropdown-menu-column">
+                  <h2>Accommodation</h2>
+                  <ul>
+                    <li><a href="#">On Campus</a></li>
+                    <li><a href="#">Off Campus</a></li>
+                  </ul>
+                </div>
+
+                <div class="dropdown-menu-column">
+                  <h2>Partnerships</h2>
+                  <ul>
+                    <li><a href="#">Microsoft</a></li>
+                    <li><a href="#">w3.org</a></li>
+                    <li><a href="#">Github</a></li>
+                    <li><a href="#">Amazon Web Services</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html#section-features"
+                >Features</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html#section-testimonials"
+                >Testimonials</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="/admission/index.html#section-form" class="nav-cta"
+                >Enroll</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <button class="mobile-nav-button">
+          <i class="ph-list nav-buttons"></i>
+          <i class="ph-x nav-buttons"></i>
+        </button>
+
+        <!-- Mobile nav starts here -->
+
+        <nav class="mobile-nav">
+          <ul class="mobile-nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link dropdown-button"
+                data-button="study-in-ca"
+                href="#"
+                >Study in CA <i class="ph-caret-right dropdown-caret"></i
+              ></a>
+
+              <div class="m-dropdown-container" data-menu="study-in-ca">
+                <div class="m-dropdown-menu-column">
+                  <h2>Admission</h2>
+                  <ul>
+                    <li>
+                      <a
+                        class="dropdown-menu-inner-nav-link"
+                        href="/admission/index.html"
+                        >Admission Procedure</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-menu-inner-nav-link"
+                        href="/admission/index.html#section-international-students"
+                        >International Students
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-menu-inner-nav-link"
+                        href="/admission/index.html#section-handicapped-students"
+                        >Students with Special Needs
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="m-dropdown-menu-column">
+                  <h2>Finance & Aid</h2>
+                  <ul>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >Tuition Fees</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >Scholarships</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >Scholarship Eligibility</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >Student Loan</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >Loan Eligibility</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >International Organization Scholarships</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="m-dropdown-menu-column">
+                  <h2>Accommodation</h2>
+                  <ul>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >On Campus</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >Off Campus</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="m-dropdown-menu-column">
+                  <h2>Partnerships</h2>
+                  <ul>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >Microsoft</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >w3.org</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >Github</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >Amazon Web Services</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html#section-features"
+                >Features</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html#section-testimonials"
+                >Testimonials</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-cta" href="/admission/index.html#section-form"
+                >Enroll
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-admission-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Start<br />
+              your<br />
+              future<br />
+              here.<br />
+            </h1>
+          </div>
+
+          <div
+            role="img"
+            aria-label="Online admission form"
+            class="hero-img-box admission-hero-img-box"
+          ></div>
+
+          <nav class="hero-nav">
+            <ul class="hero-nav-links">
+              <li>
+                <a class="hero-nav-link" href="#section-admission-procedure"
+                  >Admission Procedure
+                  <div class="border-bottom"></div>
+                </a>
+              </li>
+              <li>
+                <a class="hero-nav-link" href="#section-international-students"
+                  >International Students
+                  <div class="border-bottom"></div>
+                </a>
+              </li>
+              <li>
+                <a class="hero-nav-link" href="#section-handicapped-students"
+                  >Students with Special Needs
+                  <div class="border-bottom"></div>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <section
+        id="section-admission-procedure"
+        class="section-admission-procedure section-padding"
+      >
+        <div class="container-120rem">
+          <div class="section-header">
+            <h2 class="heading-secondary">Admission Procedure</h2>
+            <p class="general-paragraph-font">
+              It's time to turn your plans into action
+            </p>
+          </div>
+
+          <div class="section-main">
+            <div class="admission-requirements section-within-margin">
+              <h3 class="heading-tertiary">Requirements:</h3>
+              <ul class="info-list general-paragraph-font">
+                <li class="info-list-item">
+                  Cumulative high school grade point averages of 3.5 or above
+                  are generally admissible
+                </li>
+                <li class="info-list-item">
+                  Applicants with cumulative grade point averages between 2.5
+                  and 3.5 will be considered based on the quality of academic
+                  preparation
+                </li>
+                <li class="info-list-item">
+                  Submission of SAT or ACT scores are optional for the incoming
+                  class of 2022
+                </li>
+                <li class="info-list-item">
+                  Upon review of a submitted application, letters of
+                  recommendation or essays may be requested
+                </li>
+                <li class="info-list-item">
+                  Non-Native Speakers may have additional
+                  <a class="info-link" href="#section-international-students"
+                    >requirements</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="admission-online section-within-margin">
+              <h3 class="heading-tertiary">Apply Online Steps</h3>
+              <ol class="info-list general-paragraph-font">
+                <li class="info-list-item">
+                  Fill in the
+                  <a class="info-link" href="#section-form">form</a> to get your
+                  application delivered to your email address.
+                </li>
+                <li class="info-list-item">
+                  Consectetur adipisicing elit. Omnis, reprehenderit.
+                  Perspiciatis quo at dignissimos facilis numquam hic totam
+                  consectetur dolorum.
+                </li>
+                <li class="info-list-item">
+                  Perferendis consequatur inventore adipisci. Incidunt ea
+                  blanditiis qui, quo sapiente illum voluptatem nam sunt.
+                </li>
+                <li class="info-list-item">
+                  Obcaecati modi velit quasi in nostrum corporis quaerat nihil
+                  est laudantium sed.
+                </li>
+              </ol>
+            </div>
+
+            <div class="admission-postal">
+              <h3 class="heading-tertiary">Apply by Mail Steps</h3>
+              <ol class="info-list general-paragraph-font">
+                <li class="info-list-item">
+                  Tempore adipisci explicabo asperiores! Inventore velit ad
+                  ipsum omnis enim sequi temporibus corrupti fuga corporis
+                  tenetur recusandae consequuntur, reprehenderit ipsam fugiat
+                  quibusdam.
+                </li>
+                <li class="info-list-item">
+                  Consectetur adipisicing elit. Omnis, reprehenderit.
+                  Perspiciatis quo at dignissimos facilis numquam hic totam
+                  consectetur dolorum.
+                </li>
+                <li class="info-list-item">
+                  Perferendis consequatur inventore adipisci. Incidunt ea
+                  blanditiis qui, quo sapiente illum voluptatem nam sunt.
+                </li>
+                <li class="info-list-item">
+                  Obcaecati modi velit quasi in nostrum corporis quaerat nihil
+                  est laudantium sed.
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="section-international-students"
+        class="section-international-students section-padding"
+      >
+        <div class="container-120rem">
+          <div class="section-header">
+            <h2 class="heading-secondary">International Students</h2>
+            <p class="general-paragraph-font">Be part of the global journey</p>
+          </div>
+
+          <div class="section-main grid grid--2-cols section-grid">
+            <div class="section-main-img-box">
+              <img
+                loading="lazy"
+                src="/images/admission-page/international-students.jpg"
+                alt="Students with their country flags"
+              />
+            </div>
+
+            <div>
+              <div class="additional-requirements section-within-margin">
+                <h3 class="heading-tertiary">Additional Requirements</h3>
+                <ul class="info-list general-paragraph-font">
+                  <li class="info-list-item">
+                    Tempore adipisci explicabo asperiores! Inventore velit ad
+                    ipsum omnis enim sequi
+                  </li>
+                  <li class="info-list-item">
+                    Consectetur adipisicing elit. Omnis, reprehenderit
+                  </li>
+                  <li class="info-list-item">
+                    Perferendis consequatur inventore adipisci. Incidunt ea
+                    blanditiis qui
+                  </li>
+
+                  <li class="info-list-item">
+                    Obcaecati modi velit quasi in nostrum corporis quaerat nihil
+                    est laudantium sed.
+                  </li>
+                </ul>
+              </div>
+              <div class="documents-needed">
+                <h3 class="heading-tertiary">Required Foreign Documents</h3>
+                <ul class="info-list general-paragraph-font">
+                  <li class="info-list-item">
+                    Attested secondary graduation certificate
+                  </li>
+                  <li class="info-list-item">
+                    Attested higher secondary or A levels certificate
+                  </li>
+                  <li class="info-list-item">Valid passport</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="section-handicapped-students"
+        class="section-handicapped-students section-padding"
+      >
+        <div class="container-120rem">
+          <div class="section-header">
+            <h2 class="heading-secondary">Students with special needs</h2>
+            <p class="general-paragraph-font">We're here to help you excel</p>
+          </div>
+
+          <div class="section-main grid grid--2-cols section-grid">
+            <div class="section-main-img-box">
+              <img
+                loading="lazy"
+                src="/images/admission-page/students-special-needs.jpg"
+                alt="Student sitting in a wheel"
+              />
+            </div>
+
+            <div class="special-facilities section-within-margin">
+              <h3 class="heading-tertiary">Special Facilities</h3>
+              <ul class="info-list general-paragraph-font">
+                <li class="info-list-item">
+                  Tempore adipisci explicabo asperiores! Inventore velit ad
+                  ipsum omnis enim sequi temporibus corrupti fuga corporis
+                  tenetur recusandae consequuntur, reprehenderit ipsam fugiat
+                  quibusdam.
+                </li>
+                <li class="info-list-item">
+                  Consectetur adipisicing elit. Omnis, reprehenderit.
+                  Perspiciatis quo at dignissimos facilis numquam hic totam
+                  consectetur dolorum.
+                </li>
+                <li class="info-list-item">
+                  Perferendis consequatur inventore adipisci. Incidunt ea
+                  blanditiis qui, quo sapiente illum voluptatem nam sunt.
+                </li>
+                <li class="info-list-item">
+                  Obcaecati modi velit quasi in nostrum corporis quaerat nihil
+                  est laudantium sed.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="section-form" class="section-form section-padding">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="heading-secondary">Enroll now</h2>
+            <p class="general-paragraph-font">
+              Please fill in the form below to get your online application
+            </p>
+          </div>
+
+          <div class="section-main">
+            <form class="enroll-form grid grid-form" action="#">
+              <div>
+                <label for="first-name">First Name</label>
+                <input
+                  id="first-name"
+                  type="text"
+                  placeholder="John"
+                  required
+                />
+              </div>
+              <div>
+                <label for="last-name">Last Name</label>
+                <input
+                  id="last-name"
+                  type="text"
+                  placeholder="Smith"
+                  required
+                />
+              </div>
+              <div class="address1">
+                <label for="address1">Address 1</label>
+                <input
+                  id="address1"
+                  type="text"
+                  placeholder="621 Boulevard, St. George Street, Los Angeles, California, United States"
+                  required
+                />
+              </div>
+              <div class="address2">
+                <label for="address2">Address 2</label>
+                <input
+                  id="address2"
+                  type="text"
+                  placeholder="Apt 457, 2nd floor North side"
+                />
+              </div>
+              <div>
+                <label for="email">Email address</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="me@example.com"
+                  required
+                />
+              </div>
+              <div>
+                <label for="phone">Phone Number</label>
+                <input
+                  id="phone"
+                  type="tel"
+                  placeholder="123-456-789"
+                  required
+                />
+              </div>
+              <div>
+                <label for="subject">I want to enroll for</label>
+                <select id="subject" required>
+                  <option value="">Please choose</option>
+                  <option value="frontend">Front End Development</option>
+                  <option value="backend">Back End Development</option>
+                  <option value="database-management">
+                    Database Management
+                  </option>
+                  <option value="videogame">Video Game Development</option>
+                  <option value="machinelearning">Machine Learning</option>
+                </select>
+              </div>
+
+              <button type="submit">Enroll at Code Academy</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container-120rem grid grid--4-cols footer-grid">
+        <div class="logo-col">
+          <a class="website-logo" href="#">Code Academy</a>
+
+          <ul class="social-icons">
+            <li>
+              <a class="social-icon-link" href="https://www.instagram.com"
+                ><i class="ph-instagram-logo social-icon"></i
+              ></a>
+            </li>
+            <li>
+              <a class="social-icon-link" href="https://www.facebook.com"
+                ><i class="ph-facebook-logo-fill social-icon"></i
+              ></a>
+            </li>
+            <li>
+              <a class="social-icon-link" href="https://twitter.com/"
+                ><i class="ph-twitter-logo-fill social-icon"></i
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="copyright-year">2027</span> by Code
+            Academy inc. All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <address>
+            <p class="footer-nav-header">Contact Us</p>
+            <p class="address">
+              621 Boulevard, St. George Street, Los Angeles, California, United
+              States
+            </p>
+            <p>
+              <a class="footer-link" href="tel:696-328-154">696-328-154</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@codeacademy.com"
+                >hello@codeacademy.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="footer-nav">
+          <p class="footer-nav-header">Company</p>
+          <ul>
+            <li><a class="footer-link" href="#">Link 1</a></li>
+            <li><a class="footer-link" href="#">Link 2</a></li>
+            <li><a class="footer-link" href="#">Link 3</a></li>
+            <li><a class="footer-link" href="#">Link 4</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-nav">
+          <p class="footer-nav-header">Resource</p>
+          <ul>
+            <li><a class="footer-link" href="#">Link 1</a></li>
+            <li><a class="footer-link" href="#">Link 2</a></li>
+            <li><a class="footer-link" href="#">Link 3</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

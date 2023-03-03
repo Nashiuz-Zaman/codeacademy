@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Code Academy is the largest Computer Science programming college in the whole United States with world class faculty and modern facilites"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Academy | Learn Coding Together</title>
+
+    <link rel="icon" href="/images/favicon/desktop.png" />
+    <link rel="apple-touch-icon" href="/images/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/queries.css" />
+
+    <script defer src="https://unpkg.com/phosphor-icons"></script>
+    <script defer src="/shared.js"></script>
+    <script defer src="/main.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="nav-wrapper">
+        <a class="website-logo" href="index.html">Code Academy</a>
+
+        <nav class="main-nav">
+          <ul class="nav-list">
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#"
+                >Study in CA <i class="ph-caret-right"></i
+              ></a>
+
+              <div class="dropdown-menu grid grid--4-cols">
+                <div class="dropdown-menu-column">
+                  <h2>Admission</h2>
+                  <ul>
+                    <li>
+                      <a href="/admission/index.html">Admission Procedure</a>
+                    </li>
+                    <li>
+                      <a
+                        href="/admission/index.html#section-international-students"
+                        >International Students</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="/admission/index.html#section-handicapped-students"
+                        >Students with Special Needs
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="dropdown-menu-column">
+                  <h2>Finance & Aid</h2>
+                  <ul>
+                    <li><a href="#">Tuition Fees</a></li>
+                    <li><a href="#">Scholarships</a></li>
+                    <li><a href="#">Scholarship Eligibility</a></li>
+                    <li><a href="#">Student Loan</a></li>
+                    <li><a href="#">Loan Eligibility</a></li>
+                    <li>
+                      <a href="#">International Organization Scholarships</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="dropdown-menu-column">
+                  <h2>Accommodation</h2>
+                  <ul>
+                    <li><a href="#">On Campus</a></li>
+                    <li><a href="#">Off Campus</a></li>
+                  </ul>
+                </div>
+
+                <div class="dropdown-menu-column">
+                  <h2>Partnerships</h2>
+                  <ul>
+                    <li><a href="#">Microsoft</a></li>
+                    <li><a href="#">w3.org</a></li>
+                    <li><a href="#">Github</a></li>
+                    <li><a href="#">Amazon Web Services</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#section-features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a href="/admission/index.html#section-form" class="nav-cta"
+                >Enroll</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <button class="mobile-nav-button">
+          <i class="ph-list nav-buttons"></i>
+          <i class="ph-x nav-buttons"></i>
+        </button>
+
+        <!-- Mobile nav starts here -->
+
+        <nav class="mobile-nav">
+          <ul class="mobile-nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link dropdown-button"
+                data-button="study-in-ca"
+                href="#"
+                >Study in CA <i class="ph-caret-right dropdown-caret"></i
+              ></a>
+
+              <div class="m-dropdown-container" data-menu="study-in-ca">
+                <div class="m-dropdown-menu-column">
+                  <h2>Admission</h2>
+                  <ul>
+                    <li>
+                      <a
+                        class="dropdown-menu-inner-nav-link"
+                        href="/admission/index.html"
+                        >Admission Procedure</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-menu-inner-nav-link"
+                        href="/admission/index.html#section-international-students"
+                        >International Students
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-menu-inner-nav-link"
+                        href="/admission/index.html#section-handicapped-students"
+                        >Students with Special Needs
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="m-dropdown-menu-column">
+                  <h2>Finance & Aid</h2>
+                  <ul>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >Tuition Fees</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >Scholarships</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >Scholarship Eligibility</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >Student Loan</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >Loan Eligibility</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >International Organization Scholarships</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="m-dropdown-menu-column">
+                  <h2>Accommodation</h2>
+                  <ul>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >On Campus</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >Off Campus</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="m-dropdown-menu-column">
+                  <h2>Partnerships</h2>
+                  <ul>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >Microsoft</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >w3.org</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >Github</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-menu-inner-nav-link" href="#"
+                        >Amazon Web Services</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html#section-features"
+                >Features</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html#section-testimonials"
+                >Testimonials</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-cta" href="/admission/index.html#section-form"
+                >Enroll
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="container-hero">
+          <div
+            role="img"
+            aria-label="Students working together"
+            class="hero-img-slide slide-1"
+          ></div>
+          <div
+            role="img"
+            aria-label="4 people pointing at a laptop screen"
+            class="hero-img-slide slide-2"
+          ></div>
+          <div
+            role="img"
+            aria-label="Teacher having a laugh with student"
+            class="hero-img-slide slide-3"
+          ></div>
+
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Learning can be fun, learn together</h1>
+            <p class="hero-description general-paragraph-font">
+              Hundreds of students are joining our institute to learn coding and
+              that is for a reason. Learning can be fun when you learn with
+              others. Let's learn Together.
+            </p>
+            <div class="hero-btns">
+              <a
+                class="button button-primary"
+                href="/admission/index.html#section-form"
+                >Join Now</a
+              >
+              <a
+                class="button button-secondary button-learn-more"
+                href="#section-learn-more"
+              >
+                Learn more <i class="ph-caret-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="section-learn-more" class="section-learn-more">
+        <div class="learn-more-header container-120rem">
+          <span class="sub-heading">Learn More</span>
+          <h2 class="heading-secondary">
+            The way learning can be effective and fun
+          </h2>
+        </div>
+
+        <div class="learn-more-main container-120rem grid grid--2-cols">
+          <div class="learn-more-text-box">
+            <h3 class="heading-tertiary">Theory plus hands on lessons</h3>
+            <p class="text-box-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+              sapiente distinctio, fuga neque laudantium delectus itaque sed
+              veniam omnis quasi ipsum exercitationem quidem quos atque?
+            </p>
+          </div>
+          <div class="learn-more-img-box">
+            <img
+              loading="lazy"
+              src="images/learn-more/theory-plus-practical.webp"
+              alt="Laptop and practice papers on a table"
+            />
+          </div>
+
+          <div class="learn-more-img-box">
+            <img
+              loading="lazy"
+              src="images/learn-more/modern-device.webp"
+              alt="A modern laptop"
+            />
+          </div>
+          <div class="learn-more-text-box">
+            <h3 class="heading-tertiary">Practice with High End devices</h3>
+            <p class="text-box-description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+              a atque iste consequuntur sequi? Quos sint maiores odit libero
+              tempora.
+            </p>
+          </div>
+
+          <div class="learn-more-text-box">
+            <h3 class="heading-tertiary">Learn in a comfortable environment</h3>
+            <p class="text-box-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatem, facere unde fuga dicta odit eum molestias, sunt
+              suscipit, minus vitae molestiae maxime! Porro, a excepturi facilis
+              fuga quos commodi enim.
+            </p>
+          </div>
+          <div class="learn-more-img-box">
+            <img
+              loading="lazy"
+              src="images/learn-more/learn-have-fun.webp"
+              alt="Three students discussing about lessons"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="section-features" class="section-features">
+        <div class="container-120rem features-header">
+          <span class="sub-heading">Features</span>
+          <h2 class="heading-secondary">
+            A well equipped modern educational institute
+          </h2>
+        </div>
+        <div class="container-120rem grid grid--3-cols features-grid">
+          <div class="feature-box">
+            <div class="feature-img-box">
+              <img
+                loading="lazy"
+                src="images/additional-features/cafeteria.webp"
+                alt="University Cafeteria"
+              />
+            </div>
+
+            <div class="feature-text-box">
+              <h3 class="feature-heading">Cafeteria</h3>
+              <p class="feature-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente dolorem atque doloribus voluptatibus perspiciatis.
+                Quia, fugiat. Et consequatur qui modi.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-box">
+            <div class="feature-img-box">
+              <img
+                loading="lazy"
+                src="images/additional-features/outdoor.webp"
+                alt="Outdoor student activities"
+              />
+            </div>
+
+            <div class="feature-text-box">
+              <h3 class="feature-heading">Outdoor Activities</h3>
+              <p class="feature-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Obcaecati saepe ex ratione! Cum dolor, magnam debitis laudantium
+                sunt saepe tempora. Provident nemo, debitis pariatur alias modi
+                ipsum quisquam temporibus ut.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-box features-library">
+            <div class="feature-img-box">
+              <img
+                loading="lazy"
+                src="images/additional-features/library.webp"
+                alt="Five students at a library"
+              />
+            </div>
+
+            <div class="feature-text-box">
+              <h3 class="feature-heading">Library</h3>
+              <p class="feature-description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                magni quo, quae velit architecto quas dignissimos vitae.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="section-testimonials" class="section-testimonials">
+        <div class="container-120rem testimonial-header">
+          <span class="sub-heading">Testimonials</span>
+          <h2 class="heading-secondary">See what our students have to say</h2>
+        </div>
+
+        <div class="testimonial-container">
+          <div class="slides-only">
+            <div class="testimonial-slide">
+              <img
+                loading="lazy"
+                src="images/testimonials/testimonial-1.jpg"
+                alt="A student"
+              />
+              <blockquote>
+                <p class="testimonial-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                  pariatur eos, voluptatem reprehenderit veritatis provident
+                  ducimus tenetur quod est expedita.
+                </p>
+                <p class="testimonial-author">&mdash; Angela Thomas</p>
+              </blockquote>
+            </div>
+            <div class="testimonial-slide">
+              <img
+                loading="lazy"
+                src="images/testimonials/testimonial-2.jpg"
+                alt="A student"
+              />
+              <blockquote>
+                <p class="testimonial-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Consequuntur, accusantium. Facilis sapiente unde doloremque
+                  esse necessitatibus ipsum repellendus.
+                </p>
+                <p class="testimonial-author">&mdash; Richard Hansen</p>
+              </blockquote>
+            </div>
+            <div class="testimonial-slide">
+              <img
+                loading="lazy"
+                src="images/testimonials/testimonial-3.jpg"
+                alt="A student"
+              />
+              <blockquote>
+                <p class="testimonial-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+                  itaque non ipsa suscipit beatae nesciunt cupiditate!
+                  Distinctio, nulla animi quaerat expedita consequatur.
+                </p>
+                <p class="testimonial-author">&mdash; Noah Anderson</p>
+              </blockquote>
+            </div>
+          </div>
+
+          <button class="slide-btn slide-btn--left">
+            <i class="ph-caret-left"></i>
+          </button>
+          <button class="slide-btn slide-btn--right">
+            <i class="ph-caret-right"></i>
+          </button>
+
+          <div class="dots"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container-120rem grid grid--4-cols footer-grid">
+        <div class="logo-col">
+          <a class="website-logo" href="#">Code Academy</a>
+
+          <ul class="social-icons">
+            <li>
+              <a class="social-icon-link" href="https://www.instagram.com"
+                ><i class="ph-instagram-logo social-icon"></i
+              ></a>
+            </li>
+            <li>
+              <a class="social-icon-link" href="https://www.facebook.com"
+                ><i class="ph-facebook-logo-fill social-icon"></i
+              ></a>
+            </li>
+            <li>
+              <a class="social-icon-link" href="https://twitter.com/"
+                ><i class="ph-twitter-logo-fill social-icon"></i
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="copyright-year">2027</span> by Code
+            Academy inc. All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <address>
+            <p class="footer-nav-header">Contact Us</p>
+            <p class="address">
+              621 Boulevard, St. George Street, Los Angeles, California, United
+              States
+            </p>
+            <p>
+              <a class="footer-link" href="tel:696-328-154">696-328-154</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@codeacademy.com"
+                >hello@codeacademy.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="footer-nav">
+          <p class="footer-nav-header">Company</p>
+          <ul>
+            <li><a class="footer-link" href="#">Link 1</a></li>
+            <li><a class="footer-link" href="#">Link 2</a></li>
+            <li><a class="footer-link" href="#">Link 3</a></li>
+            <li><a class="footer-link" href="#">Link 4</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-nav">
+          <p class="footer-nav-header">Resource</p>
+          <ul>
+            <li><a class="footer-link" href="#">Link 1</a></li>
+            <li><a class="footer-link" href="#">Link 2</a></li>
+            <li><a class="footer-link" href="#">Link 3</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
